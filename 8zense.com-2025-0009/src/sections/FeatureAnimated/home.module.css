@@ -1,0 +1,12 @@
+/* styles/Home.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .lottieContainer {
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+  }

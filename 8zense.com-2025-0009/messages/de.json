@@ -1,0 +1,201 @@
+{
+   
+  "AGB": {
+    "AGB": "Allgemeine Geschäftsbedingungen"
+  },
+
+  "authButton":{
+
+    "login": "Einloggen",
+    "Text_02": "Registrieren"
+  },
+  
+  
+  "Error": {
+      "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
+      "title": "Etwas ist schief gelaufen!"
+    },
+   
+    "CollapsCard": {
+      "Text_01": "Wir sind top!!!",
+      "Text_02": "Hier ist warum:",
+      "Text_06": "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!",
+      "Text_07": "Wir pflegen beste Verbindungen zu Architekten und Designern!",
+      "Text_08": "Alle die von uns hergestellten Werkstücke sind handgefertigt!",
+      "Text_09": "Wir verwenden ausschliesslich hochwertige Materialien!",
+      "Text_10": "8zense.com steht für klares Design, hohe Funktionalität und ausgezeichneter Material Qualität",
+      "zeitlos": "Zeitlos",
+      "Text_11": "8zense.com Beton-Design ist zeitlos!"
+    },
+
+ "CallToAct": {
+      "Fragen": "Fragen ???",
+      "FragenText01": "Kontaktieren Se uns um all Ihre Fragen zu kären. Schreiben sie uns eine email. Wir werden all Ihreoffenen Fagen beantworten "
+ },
+ 
+ "CollapsCardFeatures": {
+      "Text_01": "Wir sind top!!!",
+      "Text_02": "Hier ist warum:",
+      "Text_06": "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!",
+      "Text-07": "Wir pflegen beste Verbindungen zu Architekten und Designern!",
+      "Text_08": "Alle die von uns hergestellten Werkstücke sind handgefertigt!",
+      "Text_09": "Wir verwenden ausschliesslich hochwertige Materialien!",
+      "Text_10": "8zense.com steht für klares Design, hohe Funktionalität und ausgezeichneter Material Qualität",    
+      "Text_11": "8zense.com Beton-Design ist zeitlos!"                                                    
+    },
+
+    "Contact": {
+      "Title_Contact": "Kontakt"
+    },
+    
+"Curriculum": {
+      "cv":"Lebenslauf"
+    },
+
+
+    "Datenschutz": {
+      "Title_Datenschutz": "Datenschutz"
+    },
+
+    
+    "Dashboard": {
+      "Dashboard_title": "Willkommen in ihrem persönlichen Account Bereich von 8zense.com!",
+      "Dashboard_subtitle": "Ein Kompakter Überblick über Ihre aktuellen Projekte, Ihre Erfolge und Ihre Ziele",
+      "LoginData": "Sie haben ein Konto und sind mit folgenden Daten angemeldet:",
+      "Galery": "Galerie unserer verschiedenen Beton-Compositionen:"
+    
+    },
+
+    "emailMessage": {
+      "Email_Text01": "Deutschland",
+      "Email_Text02": "Deutschland",
+      "Email_Text03": "Deutschland"
+    },
+
+    "Hero": {
+      "präTitle": "Innenarchitektur",
+"Title": "8zense.com",
+  
+      "postTitle": "Zeitloses Desing mit dem Werkstoff Beton"
+    },
+
+    "HowItWorks": {
+      "Howitworks": "So funktioniert's !",
+      "Previous": "Zurück",           
+      "Next": "Weiter",
+      "Prozesse": "Ablauf der Prozesse von 8zense.com:",
+      "text_01": "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
+      "text_02": "Vereinbaren Sie ein Zielgespräch mit Fernanda zur Definition Ihrer Wünsche, Vorstellungen und Ideen!",
+      "text_03": "Dank unsers ausgezeichnetes Networking finden wir für Sie genau das Team dass unter der Leitung von Fernanda ihren Designtraum erfüllt.",
+      "text_04": "Das Projekt wird in viele Einzelprojekte herunter gebrochen - nach und nach fügt sich Ihr Design-Traum wie ein Puzzel zu etwas aussergewöhlichen wundervollem zusammnen",
+      "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
+      "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
+    },
+    
+    "introWebside": {
+  
+        "zitat": "die Schönheit eines Lebewesens wird nicht durch die Atome erzeugt welche es beinhaltet sondern von der Anordnung dieser zueinander ",  
+        "text01": "Desing Interiore",
+        "text02":  "begleitet, beratet und unterstützt Sie professionell bei der Planung und Umsetzung Ihres individuellen Interieure Desings in Wohnung, Haus, Büro ofer Praxis. Sprechen Sie uns an - Wir freuen uns auf Sie!",
+        "text03": "Timeless Design",
+        "text04": "steht für zeitloses, exklusives und individuelles Design aus dem Werkstoff Beton. Jedes unserer individuell hergestellten Betonwerkstücke ist handgefertigt und ein Unikat "
+      },
+
+      "LocaleLayout":{
+        "title": "8zense.com",
+        "description": "Landingpage für Startup 8zense.com programmiert mit Next.js und next-intl und Supabase"  
+      },
+  
+    "Metadata": {
+      "title": "8zense.com",
+      "description": "landing page entwickelt mit Next.js und next-intl"
+    },
+    "LocaleSwitcher": {
+      "label": "wähle Sprache",
+      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 France} other {Unknown}}"
+    },
+    "Manifest": {
+      "description": "",
+      "name": ""
+    },
+    "Navbar": {
+      "home": "Start",
+      "gallery": "Gallerie",
+      "about": "über uns",
+      "cv": "Lebenslauf",
+      "whatwedo": "Was wir tun?",
+      "whoweare": "Wer wir sind?",
+      "Projects": "Projekte",
+      "Services": "Accesoires",
+      "contact": "Kontakt",
+      "impressum": "Impressum",
+      "datenschutz": "Datenschutz",
+      "rechtliches": "Rechtliches",
+      "cookies": "Cookies",
+      "agb": "allgemeine Geschäftsbedingungen",
+      "Admin": "Adminboard",
+      "topsecret": "Admin"
+    },
+    "NotFoundPage": {
+      "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
+      "title": "Seite nicht gefunden"
+    },
+
+    
+
+    
+
+    
+  
+    "protected": {
+      "Title_Protected": "Diese Seite sehen Sie nur wenn sie bei ",
+      "Title02_Protected": "8zense.com registriert bzw. eingeloggt sind!",    "userDetails": "Ihre Anwenderdaten",
+      "logged_in": "angemeldet als:"
+    },
+    "Rechtliches": {
+      "Title_Rechtliches": "Rechtliches"
+    },
+
+
+    "PageLayout": {
+      "links": {
+        "docs": {
+          "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+          "href": "https://next-intl.dev",
+          "title": "Dokumentation"
+        },
+        "source": {
+          "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+          "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+          "title": "Quellcode"
+        }
+      }
+    },
+    
+
+    "SignIn": {
+      "welcome": "Willkommen bei 8zense.com",
+      "signin": "Bitte melden Sie sich an um fortzufahren"  
+
+    },    
+
+    "Whoweare": {
+      "präTitle": "über 8zense.com",
+      "Title_Whoweare": "Wer wir sind?",
+      "SubTitle_Whoweare": "8zense.com ist Fernanda Pereira",
+      "Text_Whoweare": "enstand aus der Intuition heraus, obwelcher Fernanda sich immer wieder die Frage stellte, ob gutes Design nur denjenigen Menschen zusteht die dies sich auch leisten können. Als studierte Innenarchitektin hat Fernanda unzählige Projekte betreut und die Ingredentien Beton Holz - Stahl umd Glas haben sich als die favorisierten Werkstoffe ihres Schaffens rund um gutes, ansprechendes und zeitloses Design entwickelt. Es war immer Fernandas Wunsch die Symbiose der Werkstoffe zu kombinieren und mit ihnen zu experimentieren. Das Ergebnis ist:"
+    },
+
+    "Whatwedo": {
+      "präTitle": "Was wir tun?",
+      "Title_Whatwedo": "Was wir tun?",
+      "SubTitle_Whatwedo": "8zense.com ist Fernanda Pereira",
+      "Text_Whatwedo": "enstand aus der Intuition heraus, obwelcher Fern"
+    },
+
+    "IndexPage": {
+      "title": "Rechtliches",
+      "description": "absbssbbbsb"
+    },
+    "title": ""
+  }
