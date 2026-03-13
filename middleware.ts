@@ -1,7 +1,8 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
-import { defaultLocale, locales } from "@/lib/i18n/config";
+const locales = ["de", "en", "tr", "ru", "ukr"] as const;
+const defaultLocale = "de";
 
 function hasLocale(pathname: string) {
   return locales.some(
