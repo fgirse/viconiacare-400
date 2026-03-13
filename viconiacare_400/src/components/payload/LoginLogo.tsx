@@ -1,6 +1,4 @@
-import type { CustomComponent } from "payload";
-
-export const LoginLogo: CustomComponent = () => {
+export const LoginLogo = () => {
   return (
     <div
       style={{
