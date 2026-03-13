@@ -30,7 +30,9 @@ export const Users: CollectionConfig = {
     create: isAdminOrAbove,
     update: isAdminOrAbove,
     delete: isSuperAdmin,
-    admin: isAdminOrAbove,
+    admin: ({ req: { user } }) =>
+      !!user &&
+      ["superadmin", "admin"].includes((user as { role?: string }).role ?? ""),
   },
   fields: [
     {
