@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "Digital care platform",
+    "title": "Viconia Care CMS Starter",
+    "subtitle": "Payload CMS, Next.js, MongoDB and Resend are integrated."
+  },
+  "cta": {
+    "openAdmin": "Open admin",
+    "openApi": "Open API"
+  },
+  "stack": {
+    "title": "Tech stack",
+    "items": [
+      "Next.js (App Router)",
+      "Tailwind CSS latest",
+      "Payload CMS",
+      "TypeScript",
+      "MongoDB",
+      "Resend email adapter"
+    ]
+  },
+  "logos": {
+    "title": "Logo integration",
+    "hint": "Place your logos in public/logos and connect them in Payload Site Settings."
+  }
+}

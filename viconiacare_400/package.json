@@ -1,0 +1,49 @@
+{
+  "name": "viconiacare_400",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload",
+    "payload:generate:types": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:types",
+    "payload:generate:importmap": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload generate:importmap",
+    "seed": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts tsx src/scripts/seed.ts",
+    "seed:reset": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts tsx src/scripts/seed.ts --reset"
+  },
+  "dependencies": {
+    "@payloadcms/db-mongodb": "^3.79.0",
+    "@payloadcms/email-resend": "^3.79.0",
+    "@payloadcms/next": "^3.79.0",
+    "@payloadcms/plugin-cloud-storage": "^3.79.0",
+    "@payloadcms/richtext-lexical": "^3.79.0",
+    "@payloadcms/storage-vercel-blob": "^3.79.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.3.1",
+    "graphql": "^16.13.1",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.577.0",
+    "next": "15.4.11",
+    "payload": "^3.79.0",
+    "radix-ui": "^1.4.3",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "sharp": "^0.34.5",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.11",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
+  }
+}

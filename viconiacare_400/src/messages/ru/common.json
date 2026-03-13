@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "Tsifrovaya platforma ukhoda",
+    "title": "Viconia Care CMS Starter",
+    "subtitle": "Payload CMS, Next.js, MongoDB i Resend integrirovany."
+  },
+  "cta": {
+    "openAdmin": "Otkryt admin",
+    "openApi": "Otkryt API"
+  },
+  "stack": {
+    "title": "Tekhnologii",
+    "items": [
+      "Next.js (App Router)",
+      "Tailwind CSS latest",
+      "Payload CMS",
+      "TypeScript",
+      "MongoDB",
+      "Resend email adapter"
+    ]
+  },
+  "logos": {
+    "title": "Integratsiya logotipov",
+    "hint": "Razmestite logotipy v public/logos i svyazhite ikh v Payload Site Settings."
+  }
+}

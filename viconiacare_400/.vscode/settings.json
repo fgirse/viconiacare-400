@@ -1,0 +1,14 @@
+{
+  "json.schemas": [],
+  "json.schemaDownload.enable": true,
+  "jsonValidation": [
+    {
+      "fileMatch": "components.json",
+      "url": "https://ui.shadcn.com/schema.json"
+    }
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "json.trustSchemas": [
+    "https://ui.shadcn.com/schema.json"
+  ]
+}
