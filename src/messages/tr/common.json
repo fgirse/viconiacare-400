@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "Dijital bakim platformu",
+    "title": "Viconia Care CMS Baslangic",
+    "subtitle": "Payload CMS, Next.js, MongoDB ve Resend entegre edildi."
+  },
+  "cta": {
+    "openAdmin": "Yonetimi ac",
+    "openApi": "API ac"
+  },
+  "stack": {
+    "title": "Teknoloji",
+    "items": [
+      "Next.js (App Router)",
+      "Tailwind CSS latest",
+      "Payload CMS",
+      "TypeScript",
+      "MongoDB",
+      "Resend email adapter"
+    ]
+  },
+  "logos": {
+    "title": "Logo entegrasyonu",
+    "hint": "Logolari public/logos klasorune koy ve Payload Site Settings icinde bagla."
+  }
+}

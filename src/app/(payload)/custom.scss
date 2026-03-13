@@ -1,0 +1,111 @@
+// ViconiaCare - Custom Payload Admin Styles
+
+:root,
+[data-theme='light'] {
+  // Brand palette
+  --vc-teal: #0F766E;
+  --vc-teal-dark: #0d6460;
+  --vc-teal-light: #14b8a6;
+  --vc-gold: #CA8A04;
+  --vc-gold-light: #eab308;
+
+  // Override Payload theme tokens
+  --theme-elevation-0: #ffffff;
+  --theme-elevation-50: #f9fafb;
+  --theme-elevation-100: #f3f4f6;
+  --theme-elevation-150: #eaecef;
+  --theme-elevation-200: #e2e5e8;
+  --theme-elevation-800: #1f2937;
+  --theme-elevation-900: #111827;
+  --theme-elevation-1000: #030712;
+
+  --theme-success-500: #0F766E;
+  --theme-success-400: #14b8a6;
+  --theme-warning-500: #CA8A04;
+  --theme-warning-400: #eab308;
+  --theme-error-500: #ef4444;
+
+  --theme-text: #111827;
+
+  // Accent / interactive colour → teal brand
+  --theme-bg: #f9fafb;
+  --color-base-350: #0F766E;
+}
+
+[data-theme='dark'] {
+  --theme-elevation-0: #111827;
+  --theme-elevation-50: #1a2332;
+  --theme-elevation-100: #1f2937;
+  --theme-elevation-150: #243042;
+  --theme-elevation-200: #2d3a4f;
+  --theme-success-500: #14b8a6;
+  --theme-warning-500: #eab308;
+  --theme-text: #f9fafb;
+}
+
+// ── Nav brand logo area ──────────────────────────────────────────
+.nav__brand {
+  padding: 4px 0;
+}
+
+// ── Custom Logo component ────────────────────────────────────────
+.vc-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1;
+  }
+
+  &__brand {
+    color: var(--vc-teal);
+  }
+
+  &__care {
+    color: var(--vc-gold);
+  }
+}
+
+// ── Custom Icon component ────────────────────────────────────────
+.vc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// ── Primary / save buttons → teal ───────────────────────────────
+.btn--style-primary,
+.form-submit .btn--style-primary {
+  background-color: var(--vc-teal) !important;
+  border-color: var(--vc-teal) !important;
+
+  &:hover {
+    background-color: var(--vc-teal-dark) !important;
+    border-color: var(--vc-teal-dark) !important;
+  }
+}
+
+// ── Active nav item ──────────────────────────────────────────────
+.nav__link--active,
+.nav__link:hover {
+  color: var(--vc-teal) !important;
+
+  svg {
+    fill: var(--vc-teal) !important;
+  }
+}
+
+// ── Dashboard heading accent ─────────────────────────────────────
+.dashboard__label,
+.collection-list__header h1 {
+  color: var(--vc-teal);
+}
+
+// ── Table row hover ──────────────────────────────────────────────
+.row a:hover {
+  color: var(--vc-teal);
+}

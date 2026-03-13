@@ -1,0 +1,26 @@
+{
+  "hero": {
+    "badge": "Digitale Pflegeplattform",
+    "title": "Viconia Care CMS Starter",
+    "subtitle": "Payload CMS, Next.js, MongoDB und Resend sind integriert."
+  },
+  "cta": {
+    "openAdmin": "Admin öffnen",
+    "openApi": "API öffnen"
+  },
+  "stack": {
+    "title": "Tech-Stack",
+    "items": [
+      "Next.js (App Router)",
+      "Tailwind CSS latest",
+      "Payload CMS",
+      "TypeScript",
+      "MongoDB",
+      "Resend Email Adapter"
+    ]
+  },
+  "logos": {
+    "title": "Logo-Integration",
+    "hint": "Lege deine Logos in public/logos ab und verknüpfe sie in den Site Settings im Payload Admin."
+  }
+}
